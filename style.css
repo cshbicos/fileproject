@@ -1,0 +1,50 @@
+body { background-color: black; color: white; font: 11pt Verdana; color: white;}
+
+a {color: white; font-weight: bold; text-decoration: none; }
+a:hover { color: #3366FF; text-decoration: none; }
+
+
+
+table#layouttable { margin-left:auto; margin-right:auto; border-collapse:collapse; width: 760px;}
+td#layoutHeadline { text-align: center; padding-bottom: 25px;}
+td#layoutMenu { vertical-align: top; padding-right: 10px; width: 200px;}
+td#layoutContent { vertical-align: top;}
+td#layoutFooter { vertical-align: top; text-align: center; font-size: 9pt;}
+
+
+table#menuTable {  border-collapse:collapse; margin-left:auto; margin-right:auto; width: 200px;}
+.menuTR { height: 20px;}
+.menuTD { border: 1px solid white; border-bottom: none; border-top: none; border-bottom: none; text-align: center;}
+.menuTH { border: 1px solid white; border-bottom: none; background-color: #464646; font: bold 10pt Verdana; color: #3366FF;}
+td#menuLastTD { border: 1px solid white; border-top: none; text-align: center;}
+
+table#fileviewtable { border-collapse:collapse; margin-left:auto; margin-right:auto;  }
+.fileViewTH { border: 1px solid black; border-bottom-color: white; border-top: none; background-color: #464646; text-align: center;}
+.fileViewTD { padding-bottom: 6px; height:40px;}
+td#fileListChangeTD { text-align: right; }
+
+div#uploadSpaceLeft { text-align: left; padding-bottom: 20px;}
+table#uploadTable {  margin-left:0px; margin-right:auto; border-collapse:collapse; }
+td#uploadTablePublic { text-align: left; }
+td#uploadTableButton { text-align: right; }
+
+span#fileViewCurrentPage { color: #3366FF; font-weight: bold; }
+div#fileViewPages{ width: 100%; text-align: center; padding-bottom: 10px;}
+span#errorParagraph { color: red; }
+div#footerLine { border-bottom: 1px white dashed; width: 500px; margin-left:auto; margin-right:auto;}
+.headline { color: #3366FF; padding-bottom: 10px; font-size: xx-large; font-weight: bold; } 
+.subheadline { color: #3366FF; font-size: large;  font-weight: bold; padding-bottom: 10px;}
+a.filelink { color: #3366FF; text-decoration: none; }
+a:hover.filelink { color: white; text-decoration: none;}
+
+table#profileTable { border-collapse:collapse; }
+.profileCaption { background-color: #464646; font-weight: bold; border-right: 1px solid white; text-align: right; padding-left: 10px; padding-right: 10px;}
+.profileCaptionBottomLine { background-color: #464646; font-weight: bold; border-right: 1px solid white; border-bottom: 1px solid white; text-align: right; padding-left: 10px; padding-right: 10px;}
+.profileBottomLine{border-bottom: 1px solid white; padding-left: 10px; padding-right: 10px;}
+.profileTd { padding-left: 10px; padding-right: 10px;}
+
+table#percentageBarTable { border: 1px white solid; width: 200px; border-spacing:2px; margin-right: 5px; float: left;} 
+
+table#usrad_table { border-collapse:collapse; }
+.usradViewTH { border: 1px solid black; border-bottom-color: white; border-top: none; background-color: #464646; text-align: center;}
+.usradViewTD { padding: 6px;}
